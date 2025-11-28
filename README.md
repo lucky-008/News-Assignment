@@ -35,11 +35,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+
+
+
 📝 1. Project Overview
 
 The Live Hindustan Clone is a news web application built using Next.js (App Router) and TypeScript. It fetches live news data from an external News API and displays it in a structured, responsive, and SEO-friendly manner.
 
 The objective of this project is to replicate the core functionality and UI/UX experience of hindustantimes.com/livehindustan or livehindustan.com.
+
+
 
 🏗️ 2. Tech Stack
 Technology	Purpose
@@ -49,6 +54,8 @@ React	UI components
 Tailwind CSS / CSS Modules	Styling
 NewsAPI / custom news API	Fetching latest news
 Clerk Authentication (optional)	User login & session management
+
+
 📁 3. Folder Structure
 /app
  ├── layout.tsx
@@ -72,6 +79,9 @@ next.config.js
 tsconfig.json
 package.json
 
+
+
+
 🔐 4. Environment Variables
 .env
 NEWS_API_KEY=your_key_here
@@ -79,10 +89,9 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_xxx
 CLERK_SECRET_KEY=sk_xxx
 
 
-Never expose .env on GitHub.
-Add this to .gitignore:
 
-.env
+
+
 
 🔄 5. How the App Works
 ✔ Step 1: User visits homepage
